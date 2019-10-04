@@ -1,6 +1,6 @@
 {
   "name": "@biquet/persistantobject",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Saves and load objects from json files",
   "main": "persistantobject.js",
   "scripts": {
@@ -11,5 +11,9 @@
     "url": "https://github.com/BakaKiller/nodejs-persistantobject.git"
   },
   "author": "biquet",
-  "license": "SEE LICENSE IN LICENSE.md"
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "jsonfile": "^5.0.0"
+  }
 }
